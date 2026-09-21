@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"shared":true}
 //JCL_str_Extract_byReturn
 //20221227 ike wat
 //統一された改行で切り出し//JCLではLFに統一する

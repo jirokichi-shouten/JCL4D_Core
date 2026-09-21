@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"shared":true}
 //JCL_str_Extract
 //zz_ExtractText
 //20110317 wat

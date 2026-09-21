@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"shared":true}
 //JCL_str_unifyCR
 //JCL_str_uniformCR
 //Jiro_str_uniformCR

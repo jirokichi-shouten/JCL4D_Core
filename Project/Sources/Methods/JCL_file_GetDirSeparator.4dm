@@ -1,4 +1,4 @@
-//%attributes = {"preemptive":"capable"}
+//%attributes = {"preemptive":"capable","shared":true}
 //JCL_file_GetDirSeparator
 //20231230 yabe wat
 //OSに合わせたフォルダの区切りを返す

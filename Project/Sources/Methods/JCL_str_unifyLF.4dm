@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"shared":true}
 //JCL_str_unifyLF
 //20260114 wat rename
 //JCL_str_ReplaceReturn
