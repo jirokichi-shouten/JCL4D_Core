@@ -10,13 +10,17 @@ Open `Project/JCL4D_Core.4DProject` with 4D.
 
 ## Use as a component
 
-For interpreted development, install this project in the host project's
-`Components` directory under the package name `JCL4D_Core.4dbase`. A relative
-symbolic link can be used when the host and component repositories are siblings:
+For interpreted development with 4D 20 LTS, place a macOS Finder alias of
+`Project/JCL4D_Core.4DProject` in the host project's `Components` directory.
+Keep the host and component repositories as sibling directories. A POSIX symbolic
+link is not equivalent to a Finder alias and is not recognized by this setup.
 
-```text
-HostProject/Components/JCL4D_Core.4dbase -> ../../JCL4D_Core
-```
+On Windows, use a Windows shortcut to the same `.4DProject` file. Finder aliases
+and Windows shortcuts are platform-specific and should normally be created on
+each development machine. When the target environment supports the Dependency
+Manager (4D 20 R6 or later, including 4D 21), consider replacing these links with
+`Project/Sources/dependencies.json`. Verify support in the exact 4D edition and
+version before switching.
 
 Project methods exposed to the host must have `"shared":true` in their
 `//%attributes` declaration. A compiled host requires a compiled component.
