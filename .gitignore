@@ -4,3 +4,12 @@ Project/Trash/
 Data/
 Logs/
 
+# 4D compilation output
+Libraries/
+userPreferences.*/
+
+# Local data files
+*.4DD
+
+# JCL4D_Core does not define host tables
+Project/Sources/catalog.4DCatalog
