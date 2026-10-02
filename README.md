@@ -43,3 +43,9 @@ step.
 - Move forms together with their required resources.
 
 Manual: https://jiro2013.sakura.ne.jp/jcl4d_man/
+
+## License
+
+JCL4D_Coreは[MIT License](LICENSE)で提供します。
+
+JCL4D_Coreをホストプロジェクトへ複製または展開した場合もMIT Licenseが適用されます。JCL4D_CATが別途定める生成コード利用許諾は、JCL4D_Coreのソースコードには適用されません。
